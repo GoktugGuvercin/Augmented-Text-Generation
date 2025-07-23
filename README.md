@@ -52,13 +52,13 @@ The input text or the document that we provided forms the specific part of the s
 
 ## LangChain vs LangGraph
 
-|         Title          |      LangChain          |      LangGraph       |
-|:----------------------:|:-----------------------:|----------------------|
-|   **Primary Focus**    |  LLM Applications       | Multi-Agent Systems  |
-|     **Structure**      |       Chain             |        Graph         |
-| **Building Component** | Memory, Prompt, LLM     | Nodes, Edges, State  |
-|  **State Management**  |       Limited           |        Robust        |
-|     **Use Cases**      | Step-by-step operations | Finite-State Systems |
+|         Title          |      LangChain          |      LangGraph         |
+|:----------------------:|:-----------------------:|:----------------------:|
+|   **Primary Focus**    |  LLM Applications       | Multi-Agent Systems    |
+|     **Structure**      |       Chain             |        Graph           |
+| **Building Component** | Memory, Prompt, LLM     | Nodes, Edges, State    |
+|  **State Management**  |       Limited           |        Robust          |
+|     **Use Cases**      | Step-by-step operations | Finite-State Systems   |
 
 - *Primany Focus:* LangChain aims to chain language processing steps into end-to-end LLM applications by creating an abstraction over them, while LangGraph build and orchestrate entire multi-agent systems.
 
